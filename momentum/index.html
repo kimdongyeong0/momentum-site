@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="google-site-verification"
+      content="EvREAwiZcV2v0obAHko3U55okHaz_8-MQiIG5VDRQYc"
+    />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="momentum.css" />
+    <title>momentum</title>
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
+  </head>
+
+  <body>
+    <div>
+      <button
+        class="googledrive"
+        type="button"
+        onclick="window.open('https://drive.google.com/drive/u/0/my-drive') "
+      >
+        Google Drive
+      </button>
+    </div>
+    <div>
+      <form class="google2" action="https://www.google.com/search" method="GET">
+        <button type="button" class="btn btn-light">G</button>
+        <input
+          name="q"
+          class="google"
+          type="text"
+          placeholder="Please enter a search term"
+        />
+      </form>
+    </div>
+    <span class="js-weather weather"></span>
+    <div class="js-clock">
+      <h1>00:00</h1>
+    </div>
+    <form class="js-form form">
+      <input class="input2" type="text" placeholder="What is your name?" />
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <form class="js-toDo form2">
+      <input class="input" type="text" placeholder="Write to do" />
+    </form>
+    <ul class="js-toDoList"></ul>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
